@@ -2,6 +2,6 @@
 
 while true
 do
-  sleep 10
   git pull --rebase
+  sleep 10
 done
