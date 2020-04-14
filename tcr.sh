@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npm test && git commit -am green || git checkout lib
+echo npm test && git commit -am green || git checkout lib
