@@ -1,3 +1,3 @@
 #!/bin/bash
 
-(npm test && git commit -am green || git checkout lib) && git push
+npm test && git add . && git commit -am green && git push || git checkout lib
