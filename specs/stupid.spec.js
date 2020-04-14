@@ -6,5 +6,5 @@ describe('Stupid Software', () => {
   });
 
 
-  
+
 });
