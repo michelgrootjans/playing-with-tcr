@@ -11,7 +11,6 @@ the original TCR:
  npm test && git commit -am green || git reset --hard
 ```
 
-endstate of our experiments:
-```
- while true; do; fswatch -1 . > /dev/null; ./tcr.sh; done
-```
+current state:
+when you are the driver, start `driver.sh`
+when you are a navigator, start `navigator.sh`
