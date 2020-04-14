@@ -5,5 +5,5 @@ describe('Stupid Software', () => {
     expect(new StupidSoftware().run()).toEqual({running: false});
   });
 
-  
+
 });
