@@ -4,6 +4,6 @@ git pull --rebase
 
 while true
 do
-  fswatch -1 . > /dev/null
+  fswatch -0 . > /dev/null
   ./tcr.sh
 done
